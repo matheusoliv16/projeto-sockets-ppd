@@ -33,7 +33,6 @@ class DaraGame:
     def forms_line_of_three(self, player: int, row: int, col: int) -> List[Tuple[int, int]]:
         aligned = []
 
-        # horizontal
         count = 1
         horiz = [(row, col)]
 
